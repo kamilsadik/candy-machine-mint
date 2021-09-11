@@ -194,27 +194,14 @@ const Home = (props: HomeProps) => {
           <Grid item container>
             <Grid item xs={false} sm={1} />
             <Grid item xs={12} sm={10}>
-              <WhiteTextTypography>Arboretum is the first collection launched by the Arboretum cryptophilanthropy DAO.</WhiteTextTypography><br />
+              <WhiteTextTypography>Arboretum is the first collection launched by the Arboretum cryptophilanthropy DAO, a new model of digital art collection and charitable giving.</WhiteTextTypography><br />
 
               <WhiteTextTypography>The Arboretum roadmap revolves around two things:</WhiteTextTypography><br />
 
               <WhiteTextTypography>1) Supporting environmental causes<br />
-              2) Delivering value to Arboretum NFT holders, based on the size and duration of their holdership</WhiteTextTypography><br />
+              2) Delivering value to Arboretum NFT holders</WhiteTextTypography><br />
 
-              <WhiteTextTypography>To start, NFT holders will be inducted into the communiity-driven Arboretum DAO, gaining
-              early access to future drops, as well as airdropped generative concept aret in the lead-up
-              to future projects.</WhiteTextTypography><br />
-
-              <WhiteTextTypography>Arboretum DAO will also be a place to guide the direction of future artistic and philanthropic
-              projects, raising money for the environmental causes most important to the Arboretum community.</WhiteTextTypography><br />
-
-              <WhiteTextTypography>While our first project is focused on protecting the Amazon Rainforest, future collections will
-              address other environmental causes with thematic, generative artwork.</WhiteTextTypography><br />
-
-              <WhiteTextTypography>Members of Arboretum DAO can proudly be part of the first cryptophilanthropy-focused DAO, a model
-              of art collection and charitable giving.</WhiteTextTypography><br />
-
-              <WhiteTextTypography>Our first drop consists of a generative collection of trees encoded on the Solana blockchain. Claim your piece of the Arboretum forest.</WhiteTextTypography><br />
+              <WhiteTextTypography>Our first drop consists of a generative collection of trees encoded on the Solana blockchain. Claim your unique piece of the Arboretum forest, and join Solana's first cryptophilanthropy DAO.</WhiteTextTypography><br />
 
               <WhiteTextTypography>Minting is available now at a price of 1 SOL per tree, with 10% of all proceeds going to protect the Amazon Rainforest.</WhiteTextTypography><br />
             </Grid>
@@ -260,6 +247,30 @@ const Home = (props: HomeProps) => {
           )}
         </MintContainer>
         </Typography>
+
+        <br /><br />
+        
+
+        <Grid container direction="column">
+          <Grid item container>
+            <Grid item xs={false} sm={1} />
+            <Grid item xs={12} sm={10}>
+
+              <WhiteTextTypography>To start, NFT holders will be inducted into the communiity-driven Arboretum DAO, gaining
+              early access to future drops, as well as airdropped generative concept aret in the lead-up
+              to future projects. While our first project is focused on protecting the Amazon Rainforest, future collections will
+              address other environmental causes important to the Arboretum community with thematic, generative artwork.</WhiteTextTypography><br />
+
+            </Grid>
+            <Grid item xs={false} sm={2} />
+          </Grid>
+        </Grid>
+
+
+
+
+
+
 
         <Snackbar
           open={alertState.open}
