@@ -35,6 +35,12 @@ const darkTheme = createTheme({
   },
 });
 
+const styles = {
+  paperContainer: {
+    backgroundImage: './assets/img/background.png',
+  },
+}
+
 export interface HomeProps {
   candyMachineId: anchor.web3.PublicKey;
   config: anchor.web3.PublicKey;
@@ -171,6 +177,24 @@ const Home = (props: HomeProps) => {
   return (
     <main>
       <ThemeProvider theme={darkTheme}>
+      ARBORETUM<br /><br />
+        <img src={require('./assets/img/background.png')} className="photo"/><br /><br />
+      Arboretum is the first collection launched by the Arboretum cryptophilanthropy DAO.<br />
+      The Arboretum roadmap revolves around two things:<br /><br />
+      1) Supporting environmental causes<br />
+      2) Delivering value to Arboretum NFT holders, based on the size and duration of their holdership<br /><br />
+      To start, NFT holders will be inducted into the communiity-driven Arboretum DAO, gaining
+      early access to future drops, as well as airdropped generative concept aret in the lead-up
+      to future projects.<br /><br />
+      Arboretum DAO will also be a place to guide the direction of future artistic and philanthropic
+      projects, raising money for the environmental causes most important to the Arboretum community.
+      While our first project is focused on protecting the Amazon Rainforest, future collections will
+      address other environmental causes with thematic, generative artwork.<br /><br />
+      Members of Arboretum DAO can proudly be part of the first cryptophilanthropy-focused DAO, a model
+      of art collection and charitable giving.<br /><br />
+      Our first drop consists of a generative collection of trees encoded on the Solana blockchain. Claim your piece of the Arboretum forest.<br /><br />
+      Minting is available now at a price of 1 SOL per tree, with 10% of all proceeds going to protect the Amazon Rainforest.<br /><br />
+
         {wallet.connected && (
           <p>Address: {shortenAddress(wallet.publicKey?.toBase58() || "")}</p>
         )}
