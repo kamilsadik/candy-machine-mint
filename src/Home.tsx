@@ -194,7 +194,7 @@ const Home = (props: HomeProps) => {
           <Grid item container>
             <Grid item xs={false} sm={1} />
             <Grid item xs={12} sm={10}>
-              <WhiteTextTypography>Arboretum is the first collection launched by the Arboretum cryptophilanthropy DAO, a new model of digital art collection and charitable giving.</WhiteTextTypography><br />
+              <WhiteTextTypography>Arboretum presents a new model of digital art collection and charitable giving.</WhiteTextTypography><br />
 
               <WhiteTextTypography>The Arboretum roadmap revolves around two things:</WhiteTextTypography><br />
 
