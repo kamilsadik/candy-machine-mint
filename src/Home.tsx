@@ -170,6 +170,8 @@ const Home = (props: HomeProps) => {
         <p>Balance: {(balance || 0).toLocaleString()} SOL</p>
       )}
 
+      YO
+
       <MintContainer>
         {!wallet.connected ? (
           <ConnectButton>Connect Wallet</ConnectButton>
