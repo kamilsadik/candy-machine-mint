@@ -2,6 +2,7 @@
   "name": "candy-machine-mint",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kamilsadik.github.io/candy-machine-mint",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
@@ -30,6 +31,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
