@@ -32,7 +32,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "deploy": "gh-pages -b main -d build",
+    "deploy:gh": "gh-pages -b main -d build --repo https://github.com/kamilsadik/candy-machine-mint -t true",
+    "deploy": "yarn build && yarn deploy:gh",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
