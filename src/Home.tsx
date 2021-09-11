@@ -7,6 +7,8 @@ import { createTheme, ThemeProvider } from '@material-ui/core/styles';
 import Typography from "@material-ui/core/Typography";
 import background from "./assets/img/background.png"
 import { Grid } from "@material-ui/core";
+import { withStyles } from "@material-ui/core/styles";
+
 
 
 import * as anchor from "@project-serum/anchor";
@@ -43,6 +45,12 @@ const styles = {
     backgroundImage: './assets/img/background.png',
   },
 }
+
+const WhiteTextTypography = withStyles({
+  root: {
+    color: "#FFFFFF"
+  }
+})(Typography);
 
 export interface HomeProps {
   candyMachineId: anchor.web3.PublicKey;
@@ -180,39 +188,47 @@ const Home = (props: HomeProps) => {
   return (
     <main>
       <ThemeProvider theme={darkTheme}>
-        <Typography align="center"><img src={background} height="400"/></Typography><br />
+        <Typography align="center"><img src={background} width="100%"/></Typography><br />
 
-        <Typography>Arboretum is the first collection launched by the Arboretum cryptophilanthropy DAO.</Typography><br />
+        <Grid container direction="column">
+          <Grid item container>
+            <Grid item xs={false} sm={1} />
+            <Grid item xs={12} sm={10}>
+              <WhiteTextTypography>Arboretum is the first collection launched by the Arboretum cryptophilanthropy DAO.</WhiteTextTypography><br />
 
-        <Typography>The Arboretum roadmap revolves around two things:</Typography><br />
+              <WhiteTextTypography>The Arboretum roadmap revolves around two things:</WhiteTextTypography><br />
 
-        <Typography>1) Supporting environmental causes<br />
-        2) Delivering value to Arboretum NFT holders, based on the size and duration of their holdership</Typography><br />
+              <WhiteTextTypography>1) Supporting environmental causes<br />
+              2) Delivering value to Arboretum NFT holders, based on the size and duration of their holdership</WhiteTextTypography><br />
 
-        <Typography>To start, NFT holders will be inducted into the communiity-driven Arboretum DAO, gaining
-        early access to future drops, as well as airdropped generative concept aret in the lead-up
-        to future projects.</Typography><br />
+              <WhiteTextTypography>To start, NFT holders will be inducted into the communiity-driven Arboretum DAO, gaining
+              early access to future drops, as well as airdropped generative concept aret in the lead-up
+              to future projects.</WhiteTextTypography><br />
 
-        <Typography>Arboretum DAO will also be a place to guide the direction of future artistic and philanthropic
-        projects, raising money for the environmental causes most important to the Arboretum community.</Typography><br />
+              <WhiteTextTypography>Arboretum DAO will also be a place to guide the direction of future artistic and philanthropic
+              projects, raising money for the environmental causes most important to the Arboretum community.</WhiteTextTypography><br />
 
-        <Typography>While our first project is focused on protecting the Amazon Rainforest, future collections will
-        address other environmental causes with thematic, generative artwork.</Typography><br />
+              <WhiteTextTypography>While our first project is focused on protecting the Amazon Rainforest, future collections will
+              address other environmental causes with thematic, generative artwork.</WhiteTextTypography><br />
 
-        <Typography>Members of Arboretum DAO can proudly be part of the first cryptophilanthropy-focused DAO, a model
-        of art collection and charitable giving.</Typography><br />
+              <WhiteTextTypography>Members of Arboretum DAO can proudly be part of the first cryptophilanthropy-focused DAO, a model
+              of art collection and charitable giving.</WhiteTextTypography><br />
 
-        <Typography>Our first drop consists of a generative collection of trees encoded on the Solana blockchain. Claim your piece of the Arboretum forest.</Typography><br />
+              <WhiteTextTypography>Our first drop consists of a generative collection of trees encoded on the Solana blockchain. Claim your piece of the Arboretum forest.</WhiteTextTypography><br />
 
-        <Typography>Minting is available now at a price of 1 SOL per tree, with 10% of all proceeds going to protect the Amazon Rainforest.</Typography><br />
+              <WhiteTextTypography>Minting is available now at a price of 1 SOL per tree, with 10% of all proceeds going to protect the Amazon Rainforest.</WhiteTextTypography><br />
+            </Grid>
+            <Grid item xs={false} sm={2} />
+          </Grid>
+        </Grid>
 
-        <Typography align="center" variant="body1">{wallet.connected && (
+        <WhiteTextTypography align="center" variant="body1">{wallet.connected && (
           <p>Address: {shortenAddress(wallet.publicKey?.toBase58() || "")}</p>
-        )}</Typography>
+        )}</WhiteTextTypography>
 
-        <Typography align="center" variant="body1">{wallet.connected && (
+        <WhiteTextTypography align="center" variant="body1">{wallet.connected && (
           <p>Balance: {(balance || 0).toLocaleString()} SOL</p>
-        )}</Typography>
+        )}</WhiteTextTypography>
 
         <Typography align="center" variant="body1">
         <MintContainer>
