@@ -36,6 +36,8 @@ export interface HomeProps {
   txTimeout: number;
 }
 
+
+
 const Home = (props: HomeProps) => {
   const [balance, setBalance] = useState<number>();
   const [isActive, setIsActive] = useState(false); // true when countdown completes
