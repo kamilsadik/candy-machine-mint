@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/candy-machine-mint/static/css/main.229d0cf6.chunk.css",
-    "main.js": "/candy-machine-mint/static/js/main.a0ce3065.chunk.js",
-    "main.js.map": "/candy-machine-mint/static/js/main.a0ce3065.chunk.js.map",
-    "runtime-main.js": "/candy-machine-mint/static/js/runtime-main.ad759e9e.js",
-    "runtime-main.js.map": "/candy-machine-mint/static/js/runtime-main.ad759e9e.js.map",
-    "static/js/2.3f31a758.chunk.js": "/candy-machine-mint/static/js/2.3f31a758.chunk.js",
-    "static/js/2.3f31a758.chunk.js.map": "/candy-machine-mint/static/js/2.3f31a758.chunk.js.map",
-    "static/js/3.9126e126.chunk.js": "/candy-machine-mint/static/js/3.9126e126.chunk.js",
-    "static/js/3.9126e126.chunk.js.map": "/candy-machine-mint/static/js/3.9126e126.chunk.js.map",
-    "index.html": "/candy-machine-mint/index.html",
-    "static/css/main.229d0cf6.chunk.css.map": "/candy-machine-mint/static/css/main.229d0cf6.chunk.css.map",
-    "static/js/2.3f31a758.chunk.js.LICENSE.txt": "/candy-machine-mint/static/js/2.3f31a758.chunk.js.LICENSE.txt",
-    "static/media/background.ecc56216.png": "/candy-machine-mint/static/media/background.ecc56216.png"
+    "main.css": "/static/css/main.229d0cf6.chunk.css",
+    "main.js": "/static/js/main.a0ce3065.chunk.js",
+    "main.js.map": "/static/js/main.a0ce3065.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.77d7370d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.77d7370d.js.map",
+    "static/js/2.2d97d6b4.chunk.js": "/static/js/2.2d97d6b4.chunk.js",
+    "static/js/2.2d97d6b4.chunk.js.map": "/static/js/2.2d97d6b4.chunk.js.map",
+    "static/js/3.9126e126.chunk.js": "/static/js/3.9126e126.chunk.js",
+    "static/js/3.9126e126.chunk.js.map": "/static/js/3.9126e126.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.229d0cf6.chunk.css.map": "/static/css/main.229d0cf6.chunk.css.map",
+    "static/js/2.2d97d6b4.chunk.js.LICENSE.txt": "/static/js/2.2d97d6b4.chunk.js.LICENSE.txt",
+    "static/media/background.ecc56216.png": "/static/media/background.ecc56216.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ad759e9e.js",
-    "static/js/2.3f31a758.chunk.js",
+    "static/js/runtime-main.77d7370d.js",
+    "static/js/2.2d97d6b4.chunk.js",
     "static/css/main.229d0cf6.chunk.css",
     "static/js/main.a0ce3065.chunk.js"
   ]
