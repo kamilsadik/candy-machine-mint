@@ -4,6 +4,9 @@ import Countdown from "react-countdown";
 import { Button, CircularProgress, Snackbar } from "@material-ui/core";
 import Alert from "@material-ui/lab/Alert";
 import { createTheme, ThemeProvider } from '@material-ui/core/styles';
+import Typography from "@material-ui/core/Typography";
+import background from "./assets/img/background.png"
+import { Grid } from "@material-ui/core";
 
 
 import * as anchor from "@project-serum/anchor";
@@ -177,32 +180,41 @@ const Home = (props: HomeProps) => {
   return (
     <main>
       <ThemeProvider theme={darkTheme}>
-      ARBORETUM<br /><br />
-        <img src={require('./assets/img/background.png')} className="photo"/><br /><br />
-      Arboretum is the first collection launched by the Arboretum cryptophilanthropy DAO.<br />
-      The Arboretum roadmap revolves around two things:<br /><br />
-      1) Supporting environmental causes<br />
-      2) Delivering value to Arboretum NFT holders, based on the size and duration of their holdership<br /><br />
-      To start, NFT holders will be inducted into the communiity-driven Arboretum DAO, gaining
-      early access to future drops, as well as airdropped generative concept aret in the lead-up
-      to future projects.<br /><br />
-      Arboretum DAO will also be a place to guide the direction of future artistic and philanthropic
-      projects, raising money for the environmental causes most important to the Arboretum community.
-      While our first project is focused on protecting the Amazon Rainforest, future collections will
-      address other environmental causes with thematic, generative artwork.<br /><br />
-      Members of Arboretum DAO can proudly be part of the first cryptophilanthropy-focused DAO, a model
-      of art collection and charitable giving.<br /><br />
-      Our first drop consists of a generative collection of trees encoded on the Solana blockchain. Claim your piece of the Arboretum forest.<br /><br />
-      Minting is available now at a price of 1 SOL per tree, with 10% of all proceeds going to protect the Amazon Rainforest.<br /><br />
+        <Typography align="center"><img src={background} height="400"/></Typography><br />
 
-        {wallet.connected && (
+        <Typography>Arboretum is the first collection launched by the Arboretum cryptophilanthropy DAO.</Typography><br />
+
+        <Typography>The Arboretum roadmap revolves around two things:</Typography><br />
+
+        <Typography>1) Supporting environmental causes<br />
+        2) Delivering value to Arboretum NFT holders, based on the size and duration of their holdership</Typography><br />
+
+        <Typography>To start, NFT holders will be inducted into the communiity-driven Arboretum DAO, gaining
+        early access to future drops, as well as airdropped generative concept aret in the lead-up
+        to future projects.</Typography><br />
+
+        <Typography>Arboretum DAO will also be a place to guide the direction of future artistic and philanthropic
+        projects, raising money for the environmental causes most important to the Arboretum community.</Typography><br />
+
+        <Typography>While our first project is focused on protecting the Amazon Rainforest, future collections will
+        address other environmental causes with thematic, generative artwork.</Typography><br />
+
+        <Typography>Members of Arboretum DAO can proudly be part of the first cryptophilanthropy-focused DAO, a model
+        of art collection and charitable giving.</Typography><br />
+
+        <Typography>Our first drop consists of a generative collection of trees encoded on the Solana blockchain. Claim your piece of the Arboretum forest.</Typography><br />
+
+        <Typography>Minting is available now at a price of 1 SOL per tree, with 10% of all proceeds going to protect the Amazon Rainforest.</Typography><br />
+
+        <Typography align="center" variant="body1">{wallet.connected && (
           <p>Address: {shortenAddress(wallet.publicKey?.toBase58() || "")}</p>
-        )}
+        )}</Typography>
 
-        {wallet.connected && (
+        <Typography align="center" variant="body1">{wallet.connected && (
           <p>Balance: {(balance || 0).toLocaleString()} SOL</p>
-        )}
+        )}</Typography>
 
+        <Typography align="center" variant="body1">
         <MintContainer>
           {!wallet.connected ? (
             <ConnectButton>Connect Wallet</ConnectButton>
@@ -231,6 +243,7 @@ const Home = (props: HomeProps) => {
             </MintButton>
           )}
         </MintContainer>
+        </Typography>
 
         <Snackbar
           open={alertState.open}
