@@ -203,7 +203,7 @@ const Home = (props: HomeProps) => {
 
               <WhiteTextTypography>Our first drop consists of a generative collection of trees encoded on the Solana blockchain. Claim your unique piece of the Arboretum forest, and join Solana's first cryptophilanthropy DAO.</WhiteTextTypography><br />
 
-              <WhiteTextTypography>Minting is available now at a price of 1 SOL per tree, with 10% of all proceeds going to protect the Amazon Rainforest.</WhiteTextTypography><br />
+              <WhiteTextTypography>Minting is available now at a price of 1 SOL per tree, with 25% of all proceeds going to protect the Amazon Rainforest.</WhiteTextTypography><br />
             </Grid>
             <Grid item xs={false} sm={2} />
           </Grid>
