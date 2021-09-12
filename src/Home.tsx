@@ -203,7 +203,7 @@ const Home = (props: HomeProps) => {
 
               <WhiteTextTypography>Our first drop consists of a generative collection of trees encoded on the Solana blockchain. Claim your unique piece of the Arboretum forest, and join Solana's first cryptophilanthropy DAO.</WhiteTextTypography><br />
 
-              <WhiteTextTypography>Minting is available now at a price of 1 SOL per tree, with 25% of all proceeds going to protect the Amazon Rainforest.</WhiteTextTypography><br />
+              <WhiteTextTypography>Minting is available now at a price of 1 SOL per tree, with 25% of all proceeds going to Amazon Rainforest Conservation efforts.</WhiteTextTypography><br />
             </Grid>
             <Grid item xs={false} sm={2} />
           </Grid>
@@ -256,8 +256,8 @@ const Home = (props: HomeProps) => {
             <Grid item xs={false} sm={1} />
             <Grid item xs={12} sm={10}>
 
-              <WhiteTextTypography>To start, NFT holders will be inducted into the communiity-driven Arboretum DAO, gaining
-              early access to future drops, as well as airdropped generative concept aret in the lead-up
+              <WhiteTextTypography>To start, NFT holders will be inducted into the community-driven Arboretum DAO, gaining
+              early access to future drops, as well as airdropped generative concept art in the lead-up
               to future projects. While our first project is focused on protecting the Amazon Rainforest, future collections will
               address other environmental causes important to the Arboretum community with thematic, generative artwork.</WhiteTextTypography><br />
 
