@@ -191,10 +191,7 @@ const Home = (props: HomeProps) => {
       <Header />
         </Grid>
       <ThemeProvider theme={darkTheme}>
-        <WhiteTextTypography variant="h6" align="center">
-          HELLO
-        </WhiteTextTypography>
-        <Typography align="center"><img src={background} height="100%" resizeMode="cover"/></Typography><br />
+        <Typography align="center"><img src={background} height="100%"/></Typography><br />
 
 {/*
         <Grid container direction="column">
@@ -294,7 +291,7 @@ const Home = (props: HomeProps) => {
                 ROADMAP <br /><br />
               </WhiteTextTypography>
               <WhiteTextTypography variant="body1" align="center">
-                Our first drop, Arboretum, 
+                Labyrinth is a digital art collective
               </WhiteTextTypography>
             </Grid>
 
@@ -338,4 +335,4 @@ const renderCounter = ({ days, hours, minutes, seconds, completed }: any) => {
   );
 };
 
-export default Home;
+export default MutableSelf;

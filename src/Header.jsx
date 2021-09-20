@@ -18,7 +18,6 @@ import DiscordIcon from "./assets/img/discord.png"
 
 
 
-
 const useStyles = makeStyles(() => ({
   typographyStyles: {
     flex: 1
