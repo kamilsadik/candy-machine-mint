@@ -313,10 +313,11 @@ const Home = (props: HomeProps) => {
                 ROADMAP <br /><br />
               </WhiteTextTypography>
               <GreyTextTypography variant="body1" align="center">
-                Our first drop, Arboretum, consisted of 64 pixelated trees. Holders are entitled to early access to subsequent
+                Our first drop, Arboretum, consisted of 64 pixelated trees. Holders of our genesis mint are entitled to early access to subsequent
                 mints, as well as ad hoc airdrops containing concept art in the lead-up to future collections.
                 In accordance with our charitable mission, 25% of proceeds associated with Arboretum went to <a href="https://amazonwatch.org/" target="_blank">Amazon Watch</a> to aid in their efforts to protect the Amazon Rainforest,
                 while empowering indigenous populations.
+                <br /><br />
                 Our upcoming second drop, &mut self (Mutable Self) is a meditation on identity which consists of collage
                 and abstract work drawing from masterpieces of self-portraiture. The collection will be comprised of 548 unique pieces.
                 Once again, 25% of sale proceeds will be donated to charity, this time to the <a href="https://maps.org/" target="_blank">Multidisciplinary Association for Psychedelic Studies</a> to
