@@ -203,13 +203,14 @@ const Home = (props: HomeProps) => {
 
               <WhiteTextTypography>Our first drop consists of a generative collection of trees encoded on the Solana blockchain. Claim your unique piece of the Arboretum forest, and join Solana's first cryptophilanthropy DAO.</WhiteTextTypography><br />
 
-              <WhiteTextTypography>Minting is available now at a price of 1 SOL per tree, with 25% of all proceeds going to Amazon Rainforest Conservation efforts.</WhiteTextTypography><br />
+              <WhiteTextTypography>Minting has now completed, and 25% of all proceeds were donated to Amazon Rainforest Conservation efforts.</WhiteTextTypography><br />
             </Grid>
             <Grid item xs={false} sm={2} />
           </Grid>
         </Grid>
 
-        <WhiteTextTypography align="center" variant="body1">{wallet.connected && (
+
+        {/*<WhiteTextTypography align="center" variant="body1">{wallet.connected && (
           <p>Address: {shortenAddress(wallet.publicKey?.toBase58() || "")}</p>
         )}</WhiteTextTypography>
 
@@ -246,9 +247,9 @@ const Home = (props: HomeProps) => {
             </MintButton>
           )}
         </MintContainer>
-        </Typography>
+        </Typography>*/}
 
-        <br /><br />
+        <br />
         
 
         <Grid container direction="column">
