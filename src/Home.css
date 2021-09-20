@@ -1,0 +1,11 @@
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h3 { 
+   position: absolute; 
+   top: 50%; 
+   left: 0; 
+   width: 100%; 
+}

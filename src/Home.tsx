@@ -1,3 +1,4 @@
+import "./Home.css";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 import Countdown from "react-countdown";
@@ -49,6 +50,12 @@ const styles = {
 const WhiteTextTypography = withStyles({
   root: {
     color: "#FFFFFF"
+  }
+})(Typography);
+
+const GreyTextTypography = withStyles({
+  root: {
+    color: "#E0E0E0"
   }
 })(Typography);
 
@@ -191,10 +198,12 @@ const Home = (props: HomeProps) => {
       <Header />
         </Grid>
       <ThemeProvider theme={darkTheme}>
-        <WhiteTextTypography variant="h6" align="center">
-          HELLO
+        <Typography align="center"><img src={background} height="100%" resizeMode="cover" position="relative"/></Typography><br />
+
+        <WhiteTextTypography variant="h3" align="center" position="absolute">
+          &mut self <br />
+          (Mutable Self)
         </WhiteTextTypography>
-        <Typography align="center"><img src={background} height="100%" resizeMode="cover"/></Typography><br />
 
 {/*
         <Grid container direction="column">
@@ -277,34 +286,49 @@ const Home = (props: HomeProps) => {
 */}
         <Grid container direction="column">
           <Grid item container>
-          <Grid item xs={false} sm={2} />
+          <Grid item xs={false} sm={1} />
             <Grid item xs={12} sm={4} alignItems="stretch">
               <WhiteTextTypography variant="h6" align="center">
                 MISSION <br /><br />
               </WhiteTextTypography>
-              <WhiteTextTypography variant="body1" align="center">
-                Labyrinth is a digital art collective
-
+              <GreyTextTypography variant="body1" align="center">
+                Labyrinth is a digital art collective creating generative artwork on the Solana blockchain.
+                As a collective, we strive to create cutting edge digital art that visually stimulates while also
+                inviting introspection and deep reflection. Core tenets of Labyrinth's mission include: (i)
+                building a community in support of the arts on Solana; (ii) achieving a charitable
+                objective with each of our drops.
+                <br /><br />
+                Our artwork is  influenced by early digital artwork, often featuring a pixelated style.
+                Thematically, much of our material focuses on identity, meditation.
+                In addition to a host of visual influences, the thematic content of our work is heavily influenced
+                by Zen Buddhism, as well as Meshuggah, Gojira, and other technical metal bands.
                 <br /><br /><br /><br /><br /><br />
-              </WhiteTextTypography>
+              </GreyTextTypography>
             </Grid>
+
+            <Grid item xs={false} sm={2}/>
 
             <Grid item xs={12} sm={4} alignItems="stretch">
               <WhiteTextTypography variant="h6" align="center">
                 ROADMAP <br /><br />
               </WhiteTextTypography>
-              <WhiteTextTypography variant="body1" align="center">
-                Our first drop, Arboretum, 
-              </WhiteTextTypography>
+              <GreyTextTypography variant="body1" align="center">
+                Our first drop, Arboretum, consisted of 64 pixelated trees. Holders are entitled to early access to subsequent
+                mints, as well as ad hoc airdrops containing concept art in the lead-up to future collections.
+                In accordance with our charitable mission, 25% of proceeds associated with Arboretum went to <a href="https://amazonwatch.org/" target="_blank">Amazon Watch</a> to aid in their efforts to protect the Amazon Rainforest,
+                while empowering indigenous populations.
+                Our upcoming second drop, &mut self (Mutable Self) is a meditation on identity which consists of collage
+                and abstract work drawing from masterpieces of self-portraiture. The collection will be comprised of 548 unique pieces.
+                Once again, 25% of sale proceeds will be donated to charity, this time to the <a href="https://maps.org/" target="_blank">Multidisciplinary Association for Psychedelic Studies</a> to
+                aid in their work to fight treatment-resistant depression and other chronic mental health ailments. 
+                <br /><br /><br /><br /><br /><br />
+              </GreyTextTypography>
             </Grid>
 
-            <Grid item xs={false} sm={2} />
+            <Grid item xs={false} sm={1} />
 
           </Grid>
         </Grid>
-
-
-
 
 
         <Snackbar
