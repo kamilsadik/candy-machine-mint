@@ -226,7 +226,7 @@ const Home = (props: HomeProps) => {
         </Grid>
 */}
 
-        {/*<WhiteTextTypography align="center" variant="body1">{wallet.connected && (
+        <WhiteTextTypography align="center" variant="body1">{wallet.connected && (
           <p>Address: {shortenAddress(wallet.publicKey?.toBase58() || "")}</p>
         )}</WhiteTextTypography>
 
@@ -263,7 +263,7 @@ const Home = (props: HomeProps) => {
             </MintButton>
           )}
         </MintContainer>
-        </Typography>*/}
+        </Typography>
 {/*
         <br />
         
