@@ -8,7 +8,7 @@ import Typography from "@material-ui/core/Typography";
 import background from "./assets/img/background.png"
 import { Grid } from "@material-ui/core";
 import { withStyles } from "@material-ui/core/styles";
-
+import Header from "./Header";
 
 
 import * as anchor from "@project-serum/anchor";
@@ -187,8 +187,11 @@ const Home = (props: HomeProps) => {
 
   return (
     <main>
+    <Grid item>
+      <Header />
+        </Grid>
       <ThemeProvider theme={darkTheme}>
-        <Typography align="center"><img src={background} width="100%"/></Typography><br />
+        <Typography align="center"><img src={background} height="100%"/></Typography><br />
 
         <Grid container direction="column">
           <Grid item container>
