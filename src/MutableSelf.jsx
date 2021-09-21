@@ -76,10 +76,15 @@ const MutableSelf = () => {
                 Mutable Self is a meditation on the illusion of self. The collection consists of 548 generative variations
                 on masterpieces of self portraiture. The collection consists of 12 variations on each of the 48 masterpieces. The variations
                 grow increasingly chaotic, building upon each artist's notion of self, and compelling the viewer to consider
-                their own place in the world, and their own concept of self. Variations range from slight distortions to the
+                their own place in the world, and their own concept of self.
+                <br /><br />
+                Variations range from slight distortions to the
                 source material, to extremely abstract deconstructions of the self. Each piece in the collection is generated
                 algorithmically. The collection is heavily inspired by
                 Zen, and by the work of philosophical technical metal bands Meshuggah and Gojira.
+                <br /><br />
+                The mint date of &mut self will be announced in the coming days, with 25% of all sale proceeds going to <a href="https://maps.org/" target="_blank">Multidisciplinary Association for Psychedelic Studies</a> to
+                aid in their work to fight treatment-resistant depression and other chronic mental health ailments.
                 <br /><br /><br /><br />
               </GreyTextTypography>
             </Grid>
