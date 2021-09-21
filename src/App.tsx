@@ -69,11 +69,11 @@ const App = () => {
                 treasury={treasury}
                 txTimeout={txTimeout}/>
               }/>
-              <Route path="/arboretum" exact component={() =>
-                <Arboretum/>
-              }/>
               <Route path="/mutable-self" exact component={() =>
                 <MutableSelf/>
+              }/>
+              <Route path="/arboretum" exact component={() =>
+                <Arboretum/>
               }/>
             </HashRouter>
         </WalletDialogProvider>
