@@ -296,8 +296,8 @@ const Home = (props: HomeProps) => {
                 building a community in support of the arts on Solana; (ii) achieving a charitable
                 objective with each of our drops.
                 <br /><br />
-                Our artwork is  influenced by early digital artwork, often featuring a pixelated style.
-                Thematically, much of our material focuses on identity, meditation.
+                Our artwork is influenced by early digital artwork, often featuring a pixelated style.
+                Thematically, much of our material focuses on technology and identity.
                 In addition to a host of visual influences, the thematic content of our work is heavily influenced
                 by Zen Buddhism, as well as Meshuggah, Gojira, and other technical metal bands.
                 <br /><br /><br /><br /><br /><br />
