@@ -62,7 +62,7 @@ const Header = () => {
             </div>
 
             <div>
-                <Button variant="text" href="/arboretum" style={{textTransform: 'none'}}>
+                <Button variant="text" href="/#/arboretum" style={{textTransform: 'none'}}>
                   <WhiteTextTypography>
                     arboretum
                   </WhiteTextTypography>
@@ -70,7 +70,7 @@ const Header = () => {
             </div>
 
             <div>
-                <Button variant="text" href="/mutable-self" style={{textTransform: 'none'}}>
+                <Button variant="text" href="/#/mutable-self" style={{textTransform: 'none'}}>
                   <WhiteTextTypography>
                     &mut self
                   </WhiteTextTypography>

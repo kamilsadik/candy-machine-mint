@@ -1,7 +1,8 @@
 import "./App.css";
 import { useMemo } from "react";
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+//import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Link } from "react-router-dom";
 import Header from "./Header";
 import Home from "./Home";
 import Arboretum from "./Arboretum";
@@ -58,8 +59,7 @@ const App = () => {
       <WalletProvider wallets={wallets} autoConnect>
         <WalletDialogProvider>
           <Header />
-          <Router>
-            <Switch>
+            <HashRouter basename="/">
               <Route path="/" exact component={() =>
                 <Home
                 candyMachineId={candyMachineId}
@@ -75,8 +75,7 @@ const App = () => {
               <Route path="/mutable-self" exact component={() =>
                 <MutableSelf/>
               }/>
-            </Switch>
-          </Router>
+            </HashRouter>
         </WalletDialogProvider>
       </WalletProvider>
     </ConnectionProvider>
