@@ -224,6 +224,9 @@ const Home = (props: HomeProps) => {
         </Grid>
 */}
 
+
+{/*
+
         <WhiteTextTypography align="center" variant="body1">{wallet.connected && (
           <p>Address: {shortenAddress(wallet.publicKey?.toBase58() || "")}</p>
         )}</WhiteTextTypography>
@@ -262,6 +265,9 @@ const Home = (props: HomeProps) => {
           )}
         </MintContainer>
         </Typography>
+
+*/}
+
 {/*
         <br />
         
@@ -282,6 +288,8 @@ const Home = (props: HomeProps) => {
 
             <Grid item xs={false} sm={2} />
 */}
+
+
         <Grid container direction="column">
           <Grid item container>
           <Grid item xs={false} sm={1} />
