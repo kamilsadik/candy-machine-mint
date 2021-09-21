@@ -313,7 +313,7 @@ const Home = (props: HomeProps) => {
                 ROADMAP <br /><br />
               </WhiteTextTypography>
               <GreyTextTypography variant="body1" align="center">
-                Our first drop, Arboretum, consisted of 64 pixelated trees. Holders of our genesis mint are entitled to early access to subsequent
+                Our first drop, Arboretum, consisted of 64 minimalist trees in the pixelated style of the very first NFT art projects. Holders of Labyrinth NFTs are entitled to early access to subsequent
                 mints, as well as ad hoc airdrops containing concept art in the lead-up to future collections.
                 In accordance with our charitable mission, 25% of proceeds associated with Arboretum went to <a href="https://amazonwatch.org/" target="_blank">Amazon Watch</a> to aid in their efforts to protect the Amazon Rainforest,
                 while empowering indigenous populations.
