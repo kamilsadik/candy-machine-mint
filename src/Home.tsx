@@ -196,8 +196,11 @@ const Home = (props: HomeProps) => {
         <Typography align="center"><img src={background} height="100%" resizeMode="cover" position="relative"/></Typography><br />
 
         <WhiteTextTypography variant="h3" align="center" position="absolute">
-          &mut self <br />
-          (Mutable Self)
+          &mut self<br />
+          (Mutable Self)<br />
+        </WhiteTextTypography>
+        <WhiteTextTypography variant="h5" align="center" position="absolute">
+          Coming Soon
         </WhiteTextTypography>
 
 {/*
