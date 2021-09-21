@@ -60,7 +60,7 @@ const App = () => {
         <WalletDialogProvider>
           <Header />
             <HashRouter basename="/">
-              <Route path="/" exact component={() =>
+              <Route exact path="/" exact component={() =>
                 <Home
                 candyMachineId={candyMachineId}
                 config={config}
@@ -69,10 +69,10 @@ const App = () => {
                 treasury={treasury}
                 txTimeout={txTimeout}/>
               }/>
-              <Route path="/mutable-self" exact component={() =>
+              <Route exact path="/mutable-self" exact component={() =>
                 <MutableSelf/>
               }/>
-              <Route path="/arboretum" exact component={() =>
+              <Route exact path="/arboretum" exact component={() =>
                 <Arboretum/>
               }/>
             </HashRouter>
