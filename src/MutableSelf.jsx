@@ -76,7 +76,8 @@ const MutableSelf = () => {
                 Mutable Self is a meditation on the illusion of self. The collection consists of 548 generative variations
                 on masterpieces of self portraiture. The collection consists of 12 variations on each of the 48 masterpieces. The variations
                 grow increasingly chaotic, building upon each artist's notion of self, and compelling the viewer to consider
-                their own place in the world, and their own concept of self.
+                their own place in the world, and their own concept of self. The collection's title is an homage to
+                the <a href="https://www.reddit.com/r/rust/comments/8e6yh7/comment/dxsvpqr/?utm_source=share&utm_medium=web2x&context=3" target="_blank">Rust Programming Language</a>.
                 <br /><br />
                 Variations range from slight distortions to the
                 source material, to extremely abstract deconstructions of the self. Each piece in the collection is generated
