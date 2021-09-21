@@ -54,13 +54,13 @@ const Header = () => {
             </div>
 
             <div>
-                <Button variant="text" href="/" style={{textTransform: 'none'}}>
+                <Button variant="text" href="/arboretum" style={{textTransform: 'none'}}>
                   arboretum
                 </Button>
             </div>
 
             <div>
-                <Button variant="text" href="/" style={{textTransform: 'none'}}>
+                <Button variant="text" href="/mutable-self" style={{textTransform: 'none'}}>
                   &mut self
                 </Button>
             </div>

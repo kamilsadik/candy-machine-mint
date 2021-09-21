@@ -1,7 +1,11 @@
 import "./App.css";
 import { useMemo } from "react";
 
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Header from "./Header";
 import Home from "./Home";
+import Arboretum from "./Arboretum";
+import MutableSelf from "./MutableSelf";
 
 import * as anchor from "@project-serum/anchor";
 import { clusterApiUrl } from "@solana/web3.js";
@@ -53,14 +57,26 @@ const App = () => {
     <ConnectionProvider endpoint={endpoint}>
       <WalletProvider wallets={wallets} autoConnect>
         <WalletDialogProvider>
-          <Home
-            candyMachineId={candyMachineId}
-            config={config}
-            connection={connection}
-            startDate={startDateSeed}
-            treasury={treasury}
-            txTimeout={txTimeout}
-          />
+          <Header />
+          <Router>
+            <Switch>
+              <Route path="/" exact component={() =>
+                <Home
+                candyMachineId={candyMachineId}
+                config={config}
+                connection={connection}
+                startDate={startDateSeed}
+                treasury={treasury}
+                txTimeout={txTimeout}/>
+              }/>
+              <Route path="/arboretum" exact component={() =>
+                <Arboretum/>
+              }/>
+              <Route path="/mutable-self" exact component={() =>
+                <MutableSelf/>
+              }/>
+            </Switch>
+          </Router>
         </WalletDialogProvider>
       </WalletProvider>
     </ConnectionProvider>
