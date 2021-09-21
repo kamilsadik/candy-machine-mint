@@ -30,6 +30,12 @@ const darkTheme = createTheme({
   },
 });
 
+const WhiteTextTypography = withStyles({
+  root: {
+    color: "#FFFFFF"
+  }
+})(Typography);
+
 const Header = () => {
 
   const classes = useStyles();
@@ -49,19 +55,25 @@ const Header = () => {
 
             <div>
                 <Button variant="text" href="/" style={{textTransform: 'none'}}>
-                  home
+                  <WhiteTextTypography>
+                    home
+                  </WhiteTextTypography>
                 </Button>
             </div>
 
             <div>
                 <Button variant="text" href="/arboretum" style={{textTransform: 'none'}}>
-                  arboretum
+                  <WhiteTextTypography>
+                    arboretum
+                  </WhiteTextTypography>
                 </Button>
             </div>
 
             <div>
                 <Button variant="text" href="/mutable-self" style={{textTransform: 'none'}}>
-                  &mut self
+                  <WhiteTextTypography>
+                    &mut self
+                  </WhiteTextTypography>
                 </Button>
             </div>
 
