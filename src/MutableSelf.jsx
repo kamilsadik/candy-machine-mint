@@ -73,16 +73,18 @@ const MutableSelf = () => {
             <Grid item xs={false} sm={3} />
             <Grid item xs={12} sm={6} alignItems="stretch">
               <GreyTextTypography variant="body1" align="center">
-                Mutable Self is a meditation on the illusion of self. The collection consists of 548 generative variations
-                on masterpieces of self portraiture. The collection consists of 12 variations on each of the 48 masterpieces. The variations
-                grow increasingly chaotic, building upon each artist's notion of self, and compelling the viewer to consider
-                their own place in the world, and their own concept of self. The collection's title is an homage to
-                the <a href="https://www.reddit.com/r/rust/comments/8e6yh7/comment/dxsvpqr/?utm_source=share&utm_medium=web2x&context=3" target="_blank">Rust Programming Language</a>.
+                &mut self is an upcoming collection, which consists of 548 generative variations on masterpieces of self portraiture.
                 <br /><br />
+                The collection consists of 12 variations on each of the 48 masterpieces used as source material. The variations
+                of each self portrait serve to build upon each artist's notion of self, while also inviting the viewer to consider
+                their own concept of self.
                 Variations range from slight distortions to the
-                source material, to extremely abstract deconstructions of the self. Each piece in the collection is generated
-                algorithmically. The collection is heavily inspired by
-                Zen, and by the work of philosophical technical metal bands Meshuggah and Gojira.
+                source material, to heavily abstracted deconstructions. Each piece in the collection is generated
+                completely algorithmically. Examples of each variation are shown below.
+                <br /><br />
+                True to its roots on the Solana blockchain, the collection's title is an homage to
+                the <a href="https://www.reddit.com/r/rust/comments/8e6yh7/comment/dxsvpqr/?utm_source=share&utm_medium=web2x&context=3" target="_blank">Rust Programming Language</a>.
+                Thematically, the collection draws inspiration heavily from Zen, and from the work of Meshuggah and Gojira.
                 <br /><br />
                 The mint date of &mut self will be announced in the coming days, with 25% of all sale proceeds going to <a href="https://maps.org/" target="_blank">Multidisciplinary Association for Psychedelic Studies</a> to
                 aid in their work to fight treatment-resistant depression and other chronic mental health ailments.
@@ -122,9 +124,9 @@ const MutableSelf = () => {
               <GreyTextTypography variant="body1" align="center">
                 <br /><br /><br /><br /><br /><br />
                 CHAOS builds upon the foundation laid by CASCADE, but taking the entropy to another level. The backdrop consists of an algorithmically
-                distorted, grayscale version of the source material. In the foreground, we see smaller fragments of the portrait are shuffled, swirling
+                distorted, grayscale version of the source material. In the foreground, small fragments of the portrait are shuffled, swirling
                 in a tempest around the portraitist's gaze. CHAOS variations are among the most vibrant in the collection, balancing between the
-                preservation of the artist's original depiction, and enlivened by a swirl that pays homage to the pixelated origins of blockchain-based
+                literal and abstraction in a swirl of color that pays homage to the pixelated origins of blockchain-based
                 digital art.
                 The source material for this piece is Vincent van Gogh's "Self Portrait" (1887).
               </GreyTextTypography>
@@ -152,7 +154,7 @@ const MutableSelf = () => {
             <Grid item xs={12} sm={4} alignItems="stretch">
               <GreyTextTypography variant="body1" align="center">
                 <br /><br /><br /><br /><br /><br /><br /><br />
-                TORRENT takes the distortion of MATRIX to another level. By this point, the original portrait is completely indecipherable, and what remains
+                TORRENT takes the distortion of MATRIX to another level. By this point, the original portrait is completely indiscernable, and what remains
                 is a fragmented gradient hinting at the color palette of the original piece.
                 The source material for this piece is Angelica Kauffman's "Self Portrait" (1770-75).
               </GreyTextTypography>
@@ -180,7 +182,7 @@ const MutableSelf = () => {
             <Grid item xs={12} sm={4} alignItems="stretch">
               <GreyTextTypography variant="body1" align="center">
                 <br /><br /><br /><br /><br /><br /><br /><br />
-                BLIND uses the same methodology as LADDER, but with narrower strips to make the physical self more difficult to discern by casting the portraitist
+                BLIND uses the same generative methodology as LADDER, but with narrower strips to make the physical self more difficult to discern, presenting the portraitist
                 in a collage-like manner.
                 The source material for this piece is Edvard Munch's "Night Wanderer" (1924).
               </GreyTextTypography>
@@ -209,8 +211,7 @@ const MutableSelf = () => {
                 <br /><br /><br /><br /><br /><br />
                 PYRE is arguably the most highly entropic variation in the collection. In this variation, the original portrait, after being shattered into tiny tiles,
                 is reconstructed into narrow horizontal strands. Each strand is then randomly placed, and is truncated depending on its placement. The resulting visual
-                effect, especially for the brightly colored portraits in the collection, is the sense of the self as a pyre burning, representing the consummate deconstruction
-                of self.
+                effect, especially for the brightly colored portraits in the collection, is a sense of the self as a burning pyre.
                 The source material for this piece is Yayoi Kusama's "Self Portrait" (2010).
               </GreyTextTypography>
             </Grid>
@@ -248,8 +249,8 @@ const MutableSelf = () => {
             <Grid item xs={12} sm={4} alignItems="stretch">
               <GreyTextTypography variant="body1" align="center">
                 <br /><br /><br /><br /><br /><br />
-                In MOSAIC, the loss of self is manifest. No longer is there a backdrop. Instead, the viewer is presented with
-                a fragemtary view into the portrait. The purpose of this variation is to force a focus on the individual components that comprise the self,
+                In MOSAIC, the loss of self is manifest. The viewer is presented with
+                a fragmentary view of the original portrait. The purpose of this variation is to compel the viewer to focus on the individual components that comprise the self,
                 both visually and psychologically.
                 The source material for this piece is Egon Schiele's "Self Portrait" (1910).
               </GreyTextTypography>
@@ -285,11 +286,12 @@ const MutableSelf = () => {
               <GreyTextTypography variant="body1" align="center">
                 The &mut self collection consists of just one of each variation type for each of the 48 self portraits used as source material.
                 Some of these portraits are by the same artist, while other artists only have a single portrait as source material for the collection.
+                <br /><br />
                 Some portraits also have eight instead of the full twelve variations. This is the case for 7 of the portraits, whose creators are still
                 living or passed away less than 70 years ago. In those cases, we only use the source material for the most heavily abstracted
                 variations, consistent with fair-use of source material in collage-based artwork.
                 <br /><br />
-                In discussing rarity, we often refer to tiles, which are the individual fragments of the source material used throughout a given
+                In discussing rarity, we often refer to tiles, which are the individually generated and manipulated fragments of the source material used throughout a given
                 piece of art.
                 <br /><br /><br /><br />
               </GreyTextTypography>

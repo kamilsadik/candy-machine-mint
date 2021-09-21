@@ -291,15 +291,15 @@ const Home = (props: HomeProps) => {
               </WhiteTextTypography>
               <GreyTextTypography variant="body1" align="center">
                 Labyrinth is a digital art collective creating generative artwork on the Solana blockchain.
-                As a collective, we strive to create cutting edge digital art that visually stimulates while also
+                We strive to create cutting edge digital art that visually stimulates while also
                 inviting introspection and deep reflection. Core tenets of Labyrinth's mission include: (i)
                 building a community in support of the arts on Solana; (ii) achieving a charitable
-                objective with each of our drops.
+                objective with each of our collections.
                 <br /><br />
                 Our artwork is influenced by early digital artwork, often featuring a pixelated style.
                 Thematically, much of our material focuses on technology and identity.
                 In addition to a host of visual influences, the thematic content of our work is heavily influenced
-                by Zen Buddhism, as well as Meshuggah, Gojira, and other technical metal bands.
+                by Zen Buddhism, as well as the work of Meshuggah, Gojira, and other technical metal bands.
                 <br /><br /><br /><br /><br /><br />
               </GreyTextTypography>
             </Grid>
@@ -311,12 +311,12 @@ const Home = (props: HomeProps) => {
                 ROADMAP <br /><br />
               </WhiteTextTypography>
               <GreyTextTypography variant="body1" align="center">
-                Our first drop, Arboretum, consisted of 64 minimalist trees in the pixelated style of the very first NFT art projects. Holders of Labyrinth NFTs are entitled to early access to subsequent
+                Our genesis collection, Arboretum, consists of 64 minimalist trees in the pixelated style of the very first on-chain NFT art projects. Holders of Labyrinth NFTs are entitled to early access to subsequent
                 mints, as well as ad hoc airdrops containing concept art in the lead-up to future collections.
                 In accordance with our charitable mission, 25% of proceeds associated with Arboretum went to <a href="https://amazonwatch.org/" target="_blank">Amazon Watch</a> to aid in their efforts to protect the Amazon Rainforest,
                 while empowering indigenous populations.
                 <br /><br />
-                Our upcoming second drop, &mut self (Mutable Self) is a meditation on identity which consists of collage
+                Our upcoming second drop, &mut self (Mutable Self) is a meditation on identity, which consists of collage
                 and abstract work drawing from masterpieces of self-portraiture. The collection will be comprised of 548 unique pieces.
                 Once again, 25% of sale proceeds will be donated to charity, this time to the <a href="https://maps.org/" target="_blank">Multidisciplinary Association for Psychedelic Studies</a> to
                 aid in their work to fight treatment-resistant depression and other chronic mental health ailments. 

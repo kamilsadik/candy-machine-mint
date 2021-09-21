@@ -55,10 +55,19 @@ const Arboretum = () => {
             <Grid item xs={12} sm={6} alignItems="stretch">
               <GreyTextTypography variant="body1" align="center">
                 Arboretum is the genesis collection of the Labyrinth art collective, and consists of 64 generative trees on the Solana blockchain.
+                Minting is now complete, and no additional trees will be added to the collection.
                 With its simplicity, the collection pays homage to the earliest on-chain pixelated artwork.
                 <br /><br />
+                Each tree in the Arboretum collection is a 77x77 pixel image. 
+                The generative algorithm selects three colors at random for each tree.
+                Each of those pixels has a unique probability of being black, or of being shaded
+                with one of those three colors, selected at random.
+                The result of this generative process is that each tree is unique, both in coloration and in shape.
+                The symmetry of each tree gives a Rorschach-like effect, with viewers often seeing faces or other images within
+                the foliage of each tree.
+                <br /><br />
                 25% of sales proceeds associated with the mint went to <a href="https://amazonwatch.org/" target="_blank">Amazon Watch</a> to aid in their efforts to protect the Amazon Rainforest,
-                while empowering indigenous populations.
+                while also empowering indigenous communities.
                 <br /><br /><br /><br />
               </GreyTextTypography>
             </Grid>
