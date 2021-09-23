@@ -45,7 +45,7 @@ const Header = () => {
           <Toolbar>
 
             <Typography>
-              <Button size="small" href="https://twitter.com/ArboretumNFT" target="_blank">
+              <Button size="small" href="https://twitter.com/_Labyrinth_Art_" target="_blank">
                 <img src={TwitterIcon} height = "18px" />
               </Button>
               <Button size="small" href="https://discord.gg/4Qx4Vnh3Sr" target="_blank">

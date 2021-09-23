@@ -64,7 +64,7 @@ const Arboretum = () => {
                 with one of those three colors, selected at random.
                 The result of this generative process is that each tree is unique, both in coloration and in shape.
                 The symmetry of each tree gives a Rorschach-like effect, with viewers often seeing faces or other images within
-                the foliage of each tree.
+                the foliage of a tree.
                 <br /><br />
                 25% of sales proceeds associated with the mint went to <a href="https://amazonwatch.org/" target="_blank">Amazon Watch</a> to aid in their efforts to protect the Amazon Rainforest,
                 while also empowering indigenous communities.

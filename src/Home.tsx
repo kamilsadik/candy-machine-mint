@@ -196,11 +196,9 @@ const Home = (props: HomeProps) => {
         <Typography align="center"><img src={background} height="100%" resizeMode="cover" position="relative"/></Typography><br />
 
         <WhiteTextTypography variant="h3" align="center" position="absolute">
+          Coming soon:<br />
           &mut self<br />
           (Mutable Self)<br />
-        </WhiteTextTypography>
-        <WhiteTextTypography variant="h5" align="center" position="absolute">
-          Coming Soon
         </WhiteTextTypography>
 
 {/*
@@ -304,7 +302,7 @@ const Home = (props: HomeProps) => {
                 building a community in support of the arts on Solana; (ii) achieving a charitable
                 objective with each of our collections.
                 <br /><br />
-                Our artwork is influenced by early digital artwork, often featuring a pixelated style.
+                Often featuring a pixelated style, our artwork is influenced by early digital artwork.
                 Thematically, much of our material focuses on technology and identity.
                 In addition to a host of visual influences, the thematic content of our work is heavily influenced
                 by Zen Buddhism, as well as the work of Meshuggah, Gojira, and other technical metal bands.
