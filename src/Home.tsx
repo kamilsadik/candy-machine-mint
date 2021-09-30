@@ -198,7 +198,7 @@ const Home = (props: HomeProps) => {
         <WhiteTextTypography variant="h3" align="center" position="absolute">
           &mut self
           (Mutable Self)<br />
-          Available 10/2 @ 11am ET
+          Mint below starting 10/2 @ 11am ET
         </WhiteTextTypography>
 
 {/*
@@ -221,9 +221,6 @@ const Home = (props: HomeProps) => {
           </Grid>
         </Grid>
 */}
-
-
-{/*
 
         <WhiteTextTypography align="center" variant="body1">{wallet.connected && (
           <p>Address: {shortenAddress(wallet.publicKey?.toBase58() || "")}</p>
@@ -264,7 +261,7 @@ const Home = (props: HomeProps) => {
         </MintContainer>
         </Typography>
 
-*/}
+
 
 {/*
         <br />
