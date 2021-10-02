@@ -198,7 +198,7 @@ const Home = (props: HomeProps) => {
         <WhiteTextTypography variant="h3" align="center" position="absolute">
           &mut self
           (Mutable Self)<br />
-          Mint below starting 10/2 @ 11am ET
+          SOLD OUT
         </WhiteTextTypography>
 
 {/*

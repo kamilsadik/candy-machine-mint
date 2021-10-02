@@ -81,7 +81,7 @@ const MutableSelf = () => {
             <Grid item xs={false} sm={3} />
             <Grid item xs={12} sm={6} alignItems="stretch">
               <GreyTextTypography variant="body1" align="center">
-                &mut self is an upcoming collection, which consists of 548 generative collages based on masterpieces of self-portraiture.
+                &mut self is our most recent collection, and consists of 548 generative collages based on masterpieces of self-portraiture.
                 The methodology behind each piece is to "shred" the original portrait into pieces, and to reconstruct those pieces in an aesthetically pleasing way.
                 <br /><br />
                 The collection consists of 12 variations on each of the 48 masterpieces used as source material. The variations
@@ -95,7 +95,7 @@ const MutableSelf = () => {
                 the <a href="https://www.reddit.com/r/rust/comments/8e6yh7/comment/dxsvpqr/?utm_source=share&utm_medium=web2x&context=3" target="_blank">Rust Programming Language</a>.
                 Thematically, the collection draws inspiration heavily from Zen, and from the work of Meshuggah and Gojira.
                 <br /><br />
-                Minting will begin on 10/2 @ 11am ET, with 25% of all sale proceeds going to the <a href="https://maps.org/" target="_blank">Multidisciplinary Association for Psychedelic Studies</a> to
+                Minting began on 10/2 @ 11am ET, and the collection sold out within 90 minutes. 25% of all sale proceeds went to the <a href="https://maps.org/" target="_blank">Multidisciplinary Association for Psychedelic Studies</a> to
                 aid in their work to fight treatment-resistant depression and other chronic mental health ailments.
                 <br /><br /><br /><br />
               </GreyTextTypography>
