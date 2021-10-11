@@ -196,9 +196,8 @@ const Home = (props: HomeProps) => {
         <Typography align="center"><img src={background} height="100%" resizeMode="cover" position="relative"/></Typography><br />
 
         <WhiteTextTypography variant="h3" align="center" position="absolute">
-          &mut self
-          (Mutable Self)<br />
-          SOLD OUT
+          Synesthesia<br />
+          Available Saturday 10/16 @ 11am ET
         </WhiteTextTypography>
 
 {/*
@@ -221,6 +220,9 @@ const Home = (props: HomeProps) => {
           </Grid>
         </Grid>
 */}
+
+
+{/*
 
         <WhiteTextTypography align="center" variant="body1">{wallet.connected && (
           <p>Address: {shortenAddress(wallet.publicKey?.toBase58() || "")}</p>
@@ -260,7 +262,7 @@ const Home = (props: HomeProps) => {
           )}
         </MintContainer>
         </Typography>
-
+*/}
 
 
 {/*
@@ -319,9 +321,9 @@ const Home = (props: HomeProps) => {
                 In accordance with our charitable mission, 25% of proceeds associated with Arboretum went to <a href="https://amazonwatch.org/" target="_blank">Amazon Watch</a> to aid in their efforts to protect the Amazon Rainforest,
                 while empowering indigenous populations.
                 <br /><br />
-                Our upcoming second drop, &mut self (Mutable Self) is a meditation on identity, which consists of collage
-                and abstract work drawing from masterpieces of self-portraiture. The collection will be comprised of 548 unique pieces.
-                Once again, 25% of sale proceeds will be donated to charity, this time to the <a href="https://maps.org/" target="_blank">Multidisciplinary Association for Psychedelic Studies</a> to
+                Our second drop, &mut self (Mutable Self) is a meditation on identity, which consists of collage
+                and abstract work drawing from masterpieces of self-portraiture. The collection is comprised of 548 unique pieces.
+                The entire collection sold out within 90 minutes, with 25% of proceeds going to the <a href="https://maps.org/" target="_blank">Multidisciplinary Association for Psychedelic Studies</a> to
                 aid in their work to fight treatment-resistant depression and other chronic mental health ailments. 
                 <br /><br /><br /><br /><br /><br />
               </GreyTextTypography>

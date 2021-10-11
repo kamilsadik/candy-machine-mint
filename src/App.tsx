@@ -7,6 +7,7 @@ import Header from "./Header";
 import Home from "./Home";
 import Arboretum from "./Arboretum";
 import MutableSelf from "./MutableSelf";
+import Synesthesia from "./Synesthesia";
 
 import * as anchor from "@project-serum/anchor";
 import { clusterApiUrl } from "@solana/web3.js";
@@ -68,6 +69,9 @@ const App = () => {
                 startDate={startDateSeed}
                 treasury={treasury}
                 txTimeout={txTimeout}/>
+              }/>
+              <Route exact path="/synesthesia" exact component={() =>
+                <Synesthesia/>
               }/>
               <Route exact path="/mutable-self" exact component={() =>
                 <MutableSelf/>
