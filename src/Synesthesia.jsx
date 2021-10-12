@@ -14,8 +14,8 @@ import image1215 from "./assets/img/image1215.png";
 import image1281 from "./assets/img/image1281.png";
 import image1355 from "./assets/img/image1355.png";
 
-import mutSelfAtt1 from "./assets/img/mutSelfAtt1.png";
-import mutSelfAtt2 from "./assets/img/mutSelfAtt2.png";
+import synesthesiaAtt1 from "./assets/img/synesthesiaAtt1.png";
+import synesthesiaAtt0 from "./assets/img/synesthesiaAtt0.png";
 import mutSelfAtt3 from "./assets/img/mutSelfAtt3.png";
 import mutSelfAtt4 from "./assets/img/mutSelfAtt4.png";
 import mutSelfAtt8 from "./assets/img/mutSelfAtt8.png";
@@ -84,6 +84,8 @@ const MutableSelf = () => {
                 Each piece in the collection is generated completely algorithmically, with examples shown below.
                 <br /><br />
                 Thematically, the collection builds upon &mut self (Mutable Self), continuing the themes of deconstruction and examination of the whole by considering its constituent parts in various forms.
+                The generative algorithms used in this collection draw inspiration from cryptography, particularly drawing from the idea of private and public keys.
+                In essence, the waveform of a song functions as a private key, from which 48 unique public keys are generated in the form of abstract art.
                 <br /><br />
                 Minting will take place on Saturday, October 16 @ 11am ET. 25% of all sale proceeds will go to a charity selected by the Labyrinth community prior to the mint.
                 <br /><br /><br /><br />
@@ -156,7 +158,7 @@ const MutableSelf = () => {
             <Grid item xs={false} sm={2} />
 
 
-{/*
+
 
             <Grid item xs={false} sm={1} />
             <Grid item xs={12} sm={10} alignItems="stretch">
@@ -169,29 +171,27 @@ const MutableSelf = () => {
             <Grid item xs={false} sm={3} />
             <Grid item xs={12} sm={6} alignItems="stretch">
               <GreyTextTypography variant="body1" align="center">
-                The &mut self collection consists of just one of each variation type for each of the 48 self portraits used as source material.
-                Some of these portraits are by the same artist, while other artists only have a single portrait used as source material in the collection.
+                The Synesthesia collection utilizes 48 unique algorithms, each of which is applied to the 30 songs used as source material for the collection
+                to generate a total of 1440 pieces. The various algorithms create different visual outputs from a single song's waveform by using different
+                scaling factors for dot size, different shapes to represent different waveforms, and a variety of color palettes across pieces in the collection
+                to express the range of amplitudes in a given song in a variety of ways.
                 <br /><br />
-                Some portraits have only eight instead of the full twelve variations. This is the case for 7 of the portraits, whose creators are still
-                living or passed away less than 70 years ago. In those cases, we only use that portrait for the most heavily abstracted
-                variations, consistent with fair-use of source material in collage-based artwork.
-                <br /><br />
-                In discussing rarity, we often refer to tiles, which are the individually generated and manipulated fragments of the source material used throughout a given
-                piece of art.
+                As is the case with prior collections, rarity is an output rather than an input. We share the range of parameters that go into each algorithm,
+                but the true rarity of each piece is a function of the aesthetic appeal that it has for the individual holder.
                 <br /><br /><br /><br />
               </GreyTextTypography>
             </Grid>
             <Grid item xs={false} sm={3} />
 
             <Grid item xs={12} sm={12} alignItems="stretch">
-              <Typography align="center"><img src={mutSelfAtt1} height="500px" resizeMode="cover" position="relative"/></Typography><br />
+              <Typography align="center"><img src={synesthesiaAtt1} height="500px" resizeMode="cover" position="relative"/></Typography><br />
             </Grid>
             <Grid item xs={false} sm={3} />
             <Grid item xs={12} sm={6} alignItems="stretch">
               <GreyTextTypography variant="body1" align="center">
-              The number of pieces in the collection derived from a given artist's work varies considerably. In the collection, Vincent
-              van Gogh's work is most frequently represented, while the work of Lucien Freud, Sarah Lucas, and Cindy Sherman is the rarest
-              in the collection.
+              The number of pieces in the collection derived from a given artist's work varies, though not significantly. Kanye West, Jay-Z, 2Pac,
+              Meshuggah, and Gojira all have multiple songs serving as source material for the collection, while the remaining artists each have a single
+              song used as source material in the collection.
               <br /><br /><br />
               </GreyTextTypography>
             </Grid>
@@ -199,12 +199,12 @@ const MutableSelf = () => {
             <Grid item xs={false} sm={2} />
 
             <Grid item xs={12} sm={12} alignItems="stretch">
-              <Typography align="center"><img src={mutSelfAtt2} height="500px" resizeMode="cover" position="relative"/></Typography><br />
+              <Typography align="center"><img src={synesthesiaAtt0} height="500px" resizeMode="cover" position="relative"/></Typography><br />
             </Grid>
             <Grid item xs={false} sm={3} />
             <Grid item xs={12} sm={6} alignItems="stretch">
               <GreyTextTypography variant="body1" align="center">
-              While there are 48 of each variation for most of the variation types, there are only 41 CASCADE, CHAOS, PUZZLE, and LADDER pieces.
+              The quantity of NFTs derived from any particular song is constant at 48, each of which uses a unique generative algorithm.
               <br /><br /><br />
               </GreyTextTypography>
             </Grid>
@@ -212,47 +212,33 @@ const MutableSelf = () => {
             <Grid item xs={false} sm={2} />
 
             <Grid item xs={12} sm={12} alignItems="stretch">
-              <Typography align="center"><img src={mutSelfAtt3} height="500px" resizeMode="cover" position="relative"/></Typography><br />
+              
             </Grid>
             <Grid item xs={false} sm={3} />
             <Grid item xs={12} sm={6} alignItems="stretch">
               <GreyTextTypography variant="body1" align="center">
-              One of the key parameters when generating the collection is the number of strands, which refers to the row/column count of
-              the tiles that comprise each image. Pieces with a moderate number of strands are the most common; pieces with fewer strands
-              are less common; and pieces with the largest number of strands are the rarest.
+              The remaining attributes are equally common throughout the collection, and are described below:
+              <br /><br />
+              Dot Scaling Factor refers to the scaling applied to
+              shapes used in each collage. Half of the pieces in the collection use a Dot Scaling Factor of 100 resulting in larger shapes, while the other half use a Dot Scaling
+              Factor of 200 resulting in smaller shapes.
+              <br /><br />
+              Palette refers to the color scheme used to represent the range of amplitudes in a given song's waveform. The four palettes used in this collection are Indigo/Red,
+              Blue/Pink, Indigo/Amber, and Gradient. All palettes are equally represented throughout the colleciton.
+              <br /><br />
+              Shape refers to the shapes used in each collage. The collection consists of equal quantities of pieces using Circles only, Squares only, and mix of both.
+              <br /><br />
+              Density refers to how tightly packed the shapes in the collage are on the canvas (though the waveform itself is the biggest driver of how dense/sparse a piece is).
+              The collection is split evenly between pieces with a Density score of 5000, and a Density score of 7500.
               <br /><br /><br />
               </GreyTextTypography>
             </Grid>
             <Grid item xs={false} sm={3} />
             <Grid item xs={false} sm={2} />
 
-            <Grid item xs={12} sm={12} alignItems="stretch">
-              <Typography align="center"><img src={mutSelfAtt4} height="500px" resizeMode="cover" position="relative"/></Typography><br />
-            </Grid>
-            <Grid item xs={false} sm={3} />
-            <Grid item xs={12} sm={6} alignItems="stretch">
-              <GreyTextTypography variant="body1" align="center">
-              Some of the pieces in the collection have a scaling factor, which refers to the rate at which the size of each tile decreases
-              throughout the image. Most of the pieces in the collection have statically sized tiles, making the pieces with scaled tile
-              size rarer.
-              <br /><br /><br />
-              </GreyTextTypography>
-            </Grid>
-            <Grid item xs={false} sm={3} />
-            <Grid item xs={false} sm={2} />
 
-            <Grid item xs={12} sm={12} alignItems="stretch">
-              <Typography align="center"><img src={mutSelfAtt8} height="500px" resizeMode="cover" position="relative"/></Typography><br />
-            </Grid>
-            <Grid item xs={false} sm={3} />
-            <Grid item xs={12} sm={6} alignItems="stretch">
-              <GreyTextTypography variant="body1" align="center">
-              Some of the images in the collection have gaps between tiles. While there are some exceptions, in general images with larger
-              gaps between tiles are rarer than those without (or with smaller) gaps between tiles.
-              <br /><br /><br />
-              </GreyTextTypography>
-            </Grid>
-*/}
+
+
             <Grid item xs={false} sm={3} />
             <Grid item xs={false} sm={2} />
 
