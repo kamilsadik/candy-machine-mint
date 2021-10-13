@@ -87,7 +87,8 @@ const MutableSelf = () => {
                 The generative algorithms used in this collection draw inspiration from cryptography, particularly drawing from the idea of private and public keys.
                 In essence, the waveform of a song functions as a private key, from which 48 unique public keys are generated in the form of abstract art.
                 <br /><br />
-                Minting will take place on Saturday, October 16 @ 11am ET. 25% of all sale proceeds will go to a charity selected by the Labyrinth community prior to the mint.
+                Minting will take place on Saturday, October 16 @ 11am ET at a price of 1 SOL per mint. 25% of all sale proceeds will go to <a href="https://www.notesfornotes.org/" target="_blank">Notes for Notes</a>, an organization
+                that provides students with free access to musical instruments and lessons.
                 <br /><br /><br /><br />
               </GreyTextTypography>
             </Grid>

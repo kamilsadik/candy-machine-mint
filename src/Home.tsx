@@ -222,8 +222,6 @@ const Home = (props: HomeProps) => {
 */}
 
 
-
-
         <WhiteTextTypography align="center" variant="body1">{wallet.connected && (
           <p>Address: {shortenAddress(wallet.publicKey?.toBase58() || "")}</p>
         )}</WhiteTextTypography>
@@ -261,6 +259,13 @@ const Home = (props: HomeProps) => {
             </MintButton>
           )}
         </MintContainer>
+
+        <br />
+        
+        <WhiteTextTypography align="center" variant="body1">
+          Mint Price: 1 SOL
+        </WhiteTextTypography>
+
         </Typography>
 
 
