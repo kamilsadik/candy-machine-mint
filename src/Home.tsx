@@ -222,7 +222,7 @@ const Home = (props: HomeProps) => {
 */}
 
 
-{/*
+
 
         <WhiteTextTypography align="center" variant="body1">{wallet.connected && (
           <p>Address: {shortenAddress(wallet.publicKey?.toBase58() || "")}</p>
@@ -262,7 +262,7 @@ const Home = (props: HomeProps) => {
           )}
         </MintContainer>
         </Typography>
-*/}
+
 
 
 {/*

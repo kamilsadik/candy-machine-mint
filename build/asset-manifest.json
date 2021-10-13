@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d0936d19.chunk.css",
-    "main.js": "/static/js/main.62f3c3b8.chunk.js",
-    "main.js.map": "/static/js/main.62f3c3b8.chunk.js.map",
+    "main.js": "/static/js/main.4405a5c1.chunk.js",
+    "main.js.map": "/static/js/main.4405a5c1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.05bcc6fc.js",
     "runtime-main.js.map": "/static/js/runtime-main.05bcc6fc.js.map",
     "static/js/2.7a1297a5.chunk.js": "/static/js/2.7a1297a5.chunk.js",
@@ -34,6 +34,8 @@
     "static/media/pyre.fb53daa7.png": "/static/media/pyre.fb53daa7.png",
     "static/media/recognition.fa52fc34.png": "/static/media/recognition.fa52fc34.png",
     "static/media/shattered.01f18b74.png": "/static/media/shattered.01f18b74.png",
+    "static/media/synesthesiaAtt0.5485028d.png": "/static/media/synesthesiaAtt0.5485028d.png",
+    "static/media/synesthesiaAtt1.6cf33587.png": "/static/media/synesthesiaAtt1.6cf33587.png",
     "static/media/torrent.9f3db89e.png": "/static/media/torrent.9f3db89e.png",
     "static/media/twitter.27cda7bd.png": "/static/media/twitter.27cda7bd.png"
   },
@@ -41,6 +43,6 @@
     "static/js/runtime-main.05bcc6fc.js",
     "static/js/2.7a1297a5.chunk.js",
     "static/css/main.d0936d19.chunk.css",
-    "static/js/main.62f3c3b8.chunk.js"
+    "static/js/main.4405a5c1.chunk.js"
   ]
 }
