@@ -73,7 +73,7 @@ const MutableSelf = () => {
             <Grid item xs={false} sm={3} />
             <Grid item xs={12} sm={6} alignItems="stretch">
               <GreyTextTypography variant="body1" align="center">
-                Synesthesia is an upcoming collection of 1440 pieces of abstract generative art, constructed using the waveform data of songs.
+                Synesthesia is our most recent collection of 1440 pieces of abstract generative art, constructed using the waveform data of songs.
                 The methodology behind this collection involves analyzing the waveform of each song, and extracting summary statistics
                 which are then used as parameters in the artwork. The range of colors in each piece reflect the range of amplitudes
                 throughout the song, while the density and size of each colored shape reflect the song's overall intensity.
@@ -87,7 +87,7 @@ const MutableSelf = () => {
                 The generative algorithms used in this collection draw inspiration from cryptography, particularly drawing from the idea of private and public keys.
                 In essence, the waveform of a song functions as a private key, from which 48 unique public keys are generated in the form of abstract art.
                 <br /><br />
-                Minting will take place on Saturday, October 16 @ 11am ET at a price of 1 SOL per mint. 25% of all sale proceeds will go to <a href="https://www.notesfornotes.org/" target="_blank">Notes for Notes</a>, an organization
+                Minting took place on Saturday, October 16 @ 11am ET at a price of 1 SOL per mint, and all pieces sold out that day. 25% of all sale proceeds went to <a href="https://www.notesfornotes.org/" target="_blank">Notes for Notes</a>, an organization
                 that provides students with free access to musical instruments and lessons.
                 <br /><br /><br /><br />
               </GreyTextTypography>

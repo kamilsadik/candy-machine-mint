@@ -197,7 +197,7 @@ const Home = (props: HomeProps) => {
 
         <WhiteTextTypography variant="h3" align="center" position="absolute">
           Synesthesia<br />
-          Available Saturday 10/16 @ 11am ET
+          SOLD OUT
         </WhiteTextTypography>
 
 {/*
@@ -321,15 +321,15 @@ const Home = (props: HomeProps) => {
                 ROADMAP <br /><br />
               </WhiteTextTypography>
               <GreyTextTypography variant="body1" align="center">
-                Our genesis collection, Arboretum, consists of 64 minimalist trees in the pixelated style of the very first on-chain NFT art projects. Holders of Labyrinth NFTs are entitled to early access to subsequent
-                mints, as well as ad hoc airdrops containing concept art in the lead-up to future collections.
-                In accordance with our charitable mission, 25% of proceeds associated with Arboretum went to <a href="https://amazonwatch.org/" target="_blank">Amazon Watch</a> to aid in their efforts to protect the Amazon Rainforest,
+                Our genesis collection, Arboretum, consists of 64 minimalist trees in the pixelated style of the very first on-chain NFT art projects. 25% of proceeds associated with Arboretum went to <a href="https://amazonwatch.org/" target="_blank">Amazon Watch</a> to aid in their efforts to protect the Amazon Rainforest,
                 while empowering indigenous populations.
                 <br /><br />
                 Our second drop, &mut self (Mutable Self) is a meditation on identity, which consists of collage
                 and abstract work drawing from masterpieces of self-portraiture. The collection is comprised of 548 unique pieces.
                 The entire collection sold out within 90 minutes, with 25% of proceeds going to the <a href="https://maps.org/" target="_blank">Multidisciplinary Association for Psychedelic Studies</a> to
                 aid in their work to fight treatment-resistant depression and other chronic mental health ailments. 
+                <br /><br />
+                Our most recent collection, Synesthesia, consists of 1440 abstract collages constructed using the waveform data of popular songs, and raised money for <a href="https://www.notesfornotes.org/" target="_blank">Notes for Notes</a>.
                 <br /><br /><br /><br /><br /><br />
               </GreyTextTypography>
             </Grid>
