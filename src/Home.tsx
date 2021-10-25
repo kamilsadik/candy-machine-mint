@@ -6,7 +6,7 @@ import { Button, CircularProgress, Snackbar } from "@material-ui/core";
 import Alert from "@material-ui/lab/Alert";
 import { createTheme, ThemeProvider } from '@material-ui/core/styles';
 import Typography from "@material-ui/core/Typography";
-import background from "./assets/img/background.png"
+import background from "./assets/img/nova1.png"
 import { Grid } from "@material-ui/core";
 import { withStyles } from "@material-ui/core/styles";
 
@@ -196,8 +196,8 @@ const Home = (props: HomeProps) => {
         <Typography align="center"><img src={background} height="100%" resizeMode="cover" position="relative"/></Typography><br />
 
         <WhiteTextTypography variant="h3" align="center" position="absolute">
-          Synesthesia<br />
-          SOLD OUT
+          Nova<br />
+          Available Saturday 10/30 @ 10am ET
         </WhiteTextTypography>
 
 {/*
@@ -221,6 +221,8 @@ const Home = (props: HomeProps) => {
         </Grid>
 */}
 
+
+{/*
 
         <WhiteTextTypography align="center" variant="body1">{wallet.connected && (
           <p>Address: {shortenAddress(wallet.publicKey?.toBase58() || "")}</p>
@@ -268,6 +270,7 @@ const Home = (props: HomeProps) => {
 
         </Typography>
 
+*/}
 
 
 {/*
@@ -304,10 +307,10 @@ const Home = (props: HomeProps) => {
                 We strive to create cutting edge digital art that visually stimulates while also
                 inviting introspection and deep reflection. Core tenets of Labyrinth's mission include: (i)
                 building a community in support of the arts on Solana; (ii) achieving a charitable
-                objective with each of our collections.
+                objective with each of our collections; and (iii) generating long term value for NFT holders
+                through organic growth.
                 <br /><br />
-                Often featuring a pixelated style, our artwork is influenced by early digital artwork.
-                Thematically, much of our material focuses on technology and identity.
+                Thematically, much of our material focuses on technology, identity, and abstract representations of data.
                 In addition to a host of visual influences, the thematic content of our work is heavily influenced
                 by Zen Buddhism, as well as the work of Meshuggah, Gojira, and other technical metal bands.
                 <br /><br /><br /><br /><br /><br />
@@ -325,11 +328,9 @@ const Home = (props: HomeProps) => {
                 while empowering indigenous populations.
                 <br /><br />
                 Our second drop, &mut self (Mutable Self) is a meditation on identity, which consists of collage
-                and abstract work drawing from masterpieces of self-portraiture. The collection is comprised of 548 unique pieces.
-                The entire collection sold out within 90 minutes, with 25% of proceeds going to the <a href="https://maps.org/" target="_blank">Multidisciplinary Association for Psychedelic Studies</a> to
-                aid in their work to fight treatment-resistant depression and other chronic mental health ailments. 
+                and abstract work drawing from masterpieces of self-portraiture.  Our third collection, Synesthesia, consists of 1440 abstract collages constructed using the waveform data of popular songs.
                 <br /><br />
-                Our most recent collection, Synesthesia, consists of 1440 abstract collages constructed using the waveform data of popular songs, and raised money for <a href="https://www.notesfornotes.org/" target="_blank">Notes for Notes</a>.
+                Our upcoming collection is called Nova, and consists of abstract art constructed using four iconic equations in mathematics, parametrized using the coordinates of stars throughout the universe.
                 <br /><br /><br /><br /><br /><br />
               </GreyTextTypography>
             </Grid>

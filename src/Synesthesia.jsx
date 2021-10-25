@@ -73,7 +73,7 @@ const MutableSelf = () => {
             <Grid item xs={false} sm={3} />
             <Grid item xs={12} sm={6} alignItems="stretch">
               <GreyTextTypography variant="body1" align="center">
-                Synesthesia is our most recent collection of 1440 pieces of abstract generative art, constructed using the waveform data of songs.
+                Synesthesia is our third collection, consisting of 1440 pieces of abstract generative art, constructed using the waveform data of songs.
                 The methodology behind this collection involves analyzing the waveform of each song, and extracting summary statistics
                 which are then used as parameters in the artwork. The range of colors in each piece reflect the range of amplitudes
                 throughout the song, while the density and size of each colored shape reflect the song's overall intensity.

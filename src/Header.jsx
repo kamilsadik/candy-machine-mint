@@ -62,6 +62,14 @@ const Header = () => {
             </div>
 
             <div>
+                <Button variant="text" href="/#/nova" style={{textTransform: 'none'}}>
+                  <WhiteTextTypography>
+                    nova
+                  </WhiteTextTypography>
+                </Button>
+            </div>
+
+            <div>
                 <Button variant="text" href="/#/synesthesia" style={{textTransform: 'none'}}>
                   <WhiteTextTypography>
                     synesthesia
