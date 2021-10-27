@@ -305,7 +305,9 @@ const Home = (props: HomeProps) => {
               <GreyTextTypography variant="body1" align="center">
                 Labyrinth is a digital art collective creating generative artwork on the Solana blockchain.
                 We strive to create cutting edge digital art that visually stimulates while also
-                inviting introspection and deep reflection. Core tenets of Labyrinth's mission include: (i)
+                inviting introspection and deep reflection.
+                <br /><br />
+                Core tenets of Labyrinth's mission include: (i)
                 building a community in support of the arts on Solana; (ii) achieving a charitable
                 objective with each of our collections; and (iii) generating long term value for NFT holders
                 through organic growth.
@@ -324,13 +326,15 @@ const Home = (props: HomeProps) => {
                 ROADMAP <br /><br />
               </WhiteTextTypography>
               <GreyTextTypography variant="body1" align="center">
-                Our genesis collection, Arboretum, consists of 64 minimalist trees in the pixelated style of the very first on-chain NFT art projects. 25% of proceeds associated with Arboretum went to <a href="https://amazonwatch.org/" target="_blank">Amazon Watch</a> to aid in their efforts to protect the Amazon Rainforest,
-                while empowering indigenous populations.
+                Our genesis collection, Arboretum, consists of 64 minimalist trees in the pixelated style of the very first on-chain NFT art projects, and raised money for <a href="https://amazonwatch.org/" target="_blank">Amazon Watch</a>.
                 <br /><br />
                 Our second drop, &mut self (Mutable Self) is a meditation on identity, which consists of collage
-                and abstract work drawing from masterpieces of self-portraiture.  Our third collection, Synesthesia, consists of 1440 abstract collages constructed using the waveform data of popular songs.
+                and abstract work drawing from masterpieces of self-portraiture, and raised money for <a href="https://maps.org/" target="_blank">MAPS</a>. 
                 <br /><br />
-                Our upcoming collection is called Nova, and consists of abstract art constructed using four iconic equations in mathematics, parametrized using the coordinates of stars throughout the universe.
+                Our third collection, Synesthesia, consists of 1440 abstract collages constructed using the waveform data of popular songs, and raised money for <a href="https://www.notesfornotes.org/" target="_blank">Notes for Notes</a>.
+                <br /><br />
+                Our fourth and final collection for the foreseeable future is called Nova, and consists of abstract art constructed using four iconic equations in mathematics, parametrized using the coordinates of stars throughout the universe. 25% of proceeds
+                will be donated to <a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a>.
                 <br /><br /><br /><br /><br /><br />
               </GreyTextTypography>
             </Grid>

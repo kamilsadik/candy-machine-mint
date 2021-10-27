@@ -70,13 +70,13 @@ const MutableSelf = () => {
             <Grid item xs={false} sm={3} />
             <Grid item xs={12} sm={6} alignItems="stretch">
               <GreyTextTypography variant="body1" align="center">
-                Nova is our upcoming fourth collection, and consists of 3085 pieces of abstract generative art, with each piece based on a unique star in the universe.
+                Nova is our fourth and final collection for the foreseeable future, and consists of 3085 pieces of abstract generative art, with each piece based on a unique star in the universe.
                 Each piece is constructed using one or more
                 of four iconic equations in mathematics. These equations are then parametrized using the x, y, and z coordinates of the star that the piece represents.
                 While the algorithms used are few in number, slight differences in a star's position result in dramatically different outputs.
                 <br /><br />
                 Each piece in the collection is generated completely algorithmically, with examples shown below. Each star is used only
-                once throughout the entire collection. The thickness of the lines in each piece correspond directly to that star's luminosity.
+                once throughout the entire collection. The thickness of the lines in each piece corresponds directly to that star's luminosity.
                 <br /><br />
                 This collection continues a core artistic theme in the work of Labyrinth Art, which is abstract representation of meaningful underlying data.
                 Where the algorithms in prior collections were fed self-portraits or waveforms of music, the algorithms in Nova are fed star dust.
@@ -84,7 +84,7 @@ const MutableSelf = () => {
                 the star's position, distance from Earth, luminosity, and more.
                 <br /><br />
                 Minting will take place on Saturday October 30th at 10am ET at a price of 1 SOL, with a pre-sale available to existing Labyrinth NFT holders.
-                25% of all sale proceeds will go to a thematically relevant charitable organization selected by the Labyrinth community.
+                25% of all sale proceeds will be donated to <a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a>.
                 <br /><br /><br /><br />
               </GreyTextTypography>
             </Grid>
