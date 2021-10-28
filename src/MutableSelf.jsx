@@ -81,7 +81,7 @@ const MutableSelf = () => {
             <Grid item xs={false} sm={3} />
             <Grid item xs={12} sm={6} alignItems="stretch">
               <GreyTextTypography variant="body1" align="center">
-                &mut self is our most recent collection, and consists of 548 generative collages based on masterpieces of self-portraiture.
+                &mut self is our second collection, and consists of 548 generative collages based on masterpieces of self-portraiture.
                 The methodology behind each piece is to "shred" the original portrait into pieces, and to reconstruct those pieces in an aesthetically pleasing way.
                 <br /><br />
                 The collection consists of 12 variations on each of the 48 masterpieces used as source material. The variations
