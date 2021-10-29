@@ -221,7 +221,7 @@ const Home = (props: HomeProps) => {
         </Grid>
 */}
 
-{/*
+
 
 
         <WhiteTextTypography align="center" variant="body1">{wallet.connected && (
@@ -270,7 +270,7 @@ const Home = (props: HomeProps) => {
 
         </Typography>
 
-*/}
+
 
 
 {/*
