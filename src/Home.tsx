@@ -196,8 +196,7 @@ const Home = (props: HomeProps) => {
         <Typography align="center"><img src={background} height="100%" resizeMode="cover" position="relative"/></Typography><br />
 
         <WhiteTextTypography variant="h3" align="center" position="absolute">
-          Nova<br />
-          Available Saturday 10/30 @ 10am ET
+          Labyrinth Art
         </WhiteTextTypography>
 
 {/*
@@ -222,7 +221,7 @@ const Home = (props: HomeProps) => {
 */}
 
 
-
+{/*
 
         <WhiteTextTypography align="center" variant="body1">{wallet.connected && (
           <p>Address: {shortenAddress(wallet.publicKey?.toBase58() || "")}</p>
@@ -270,7 +269,7 @@ const Home = (props: HomeProps) => {
 
         </Typography>
 
-
+*/}
 
 
 {/*
@@ -309,8 +308,8 @@ const Home = (props: HomeProps) => {
                 <br /><br />
                 Core tenets of Labyrinth's mission include: (i)
                 building a community in support of the arts on Solana; (ii) achieving a charitable
-                objective with each of our collections; and (iii) generating long term value for NFT holders
-                through organic growth.
+                objective with each of our collections; and (iii) generating artistic and community
+                value for Labyrinth NFT holders.
                 <br /><br />
                 Thematically, much of our material focuses on technology, identity, and abstract representations of data.
                 In addition to a host of visual influences, the thematic content of our work is heavily influenced
@@ -323,7 +322,7 @@ const Home = (props: HomeProps) => {
 
             <Grid item xs={12} sm={4} alignItems="stretch">
               <WhiteTextTypography variant="h6" align="center">
-                ROADMAP <br /><br />
+                COLLECTIONS <br /><br />
               </WhiteTextTypography>
               <GreyTextTypography variant="body1" align="center">
                 Our genesis collection, Arboretum, consists of 64 minimalist trees in the pixelated style of the very first on-chain NFT art projects, and raised money for <a href="https://amazonwatch.org/" target="_blank">Amazon Watch</a>.
@@ -334,7 +333,7 @@ const Home = (props: HomeProps) => {
                 Our third collection, Synesthesia, consists of 1440 abstract collages constructed using the waveform data of popular songs, and raised money for <a href="https://www.notesfornotes.org/" target="_blank">Notes for Notes</a>.
                 <br /><br />
                 Our fourth and final collection for the foreseeable future is called Nova, and consists of abstract art constructed using four iconic equations in mathematics, parametrized using the coordinates of stars throughout the universe. 25% of proceeds
-                will be donated to <a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a>.
+                were donated to <a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a>.
                 <br /><br /><br /><br /><br /><br />
               </GreyTextTypography>
             </Grid>

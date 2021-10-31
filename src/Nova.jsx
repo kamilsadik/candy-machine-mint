@@ -70,7 +70,7 @@ const MutableSelf = () => {
             <Grid item xs={false} sm={3} />
             <Grid item xs={12} sm={6} alignItems="stretch">
               <GreyTextTypography variant="body1" align="center">
-                Nova is our fourth and final collection for the foreseeable future, and consists of 3085 pieces of abstract generative art, with each piece based on a unique star in the universe.
+                Nova is our fourth and final collection for the foreseeable future, with each piece based on a unique star in the universe.
                 Each piece is constructed using one or more
                 of four iconic equations in mathematics. These equations are then parametrized using the x, y, and z coordinates of the star that the piece represents.
                 While the algorithms used are few in number, slight differences in a star's position result in dramatically different outputs.
@@ -83,8 +83,7 @@ const MutableSelf = () => {
                 The metadata for each piece in the collection includes the star's ID in the Hipparcos star catalogue, as well as details about
                 the star's position, distance from Earth, luminosity, and more.
                 <br /><br />
-                Minting will take place on Saturday October 30th at 10am ET at a price of 1 SOL, with a pre-sale available to existing Labyrinth NFT holders.
-                25% of all sale proceeds will be donated to <a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a>.
+                25% of all sale proceeds were donated to <a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a> in their first ever Solana donation.
                 <br /><br /><br /><br />
               </GreyTextTypography>
             </Grid>

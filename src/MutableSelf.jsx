@@ -95,7 +95,7 @@ const MutableSelf = () => {
                 the <a href="https://www.reddit.com/r/rust/comments/8e6yh7/comment/dxsvpqr/?utm_source=share&utm_medium=web2x&context=3" target="_blank">Rust Programming Language</a>.
                 Thematically, the collection draws inspiration heavily from Zen, and from the work of Meshuggah and Gojira.
                 <br /><br />
-                Minting began on 10/2 @ 11am ET, and the collection sold out within 90 minutes. 25% of all sale proceeds went to the <a href="https://maps.org/" target="_blank">Multidisciplinary Association for Psychedelic Studies</a> to
+                Minting began took place on October 2, and the collection sold out within 90 minutes. 25% of all sale proceeds went to the <a href="https://maps.org/" target="_blank">Multidisciplinary Association for Psychedelic Studies</a> to
                 aid in their work to fight treatment-resistant depression and other chronic mental health ailments.
                 <br /><br /><br /><br />
               </GreyTextTypography>
